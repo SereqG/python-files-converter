@@ -5,6 +5,9 @@ import json
 import constants
 
 def json_to_xlsx(input_path):
+    """
+    Converts JSON data (list or dict) to an XLSX file and saves it to output_path.
+    """
     output_path = f"{constants.OUTPUT_FILE_PATH}.xlsx"
     try:
         with open(input_path, "r", encoding="utf-8") as file:
@@ -23,7 +26,7 @@ def json_to_xlsx(input_path):
         ws.append(row.tolist())
 
     wb.save(output_path)
-    print(f"Excel file saved to: {output_path}")
+    print(f"File converted successfully: {output_path}")
 
     
     

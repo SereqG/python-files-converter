@@ -1,8 +1,7 @@
 POSSIBLE_EXTENSIONS = {
-    1: ".json",
-    2: ".xml",
-    3: ".xlsx",
-    4: ".csv"
+    1: ".xml",
+    2: ".xlsx",
+    3: ".csv"
 }
 
 OUTPUT_FILE_PATH = "files/output/output"
