@@ -62,3 +62,6 @@ coverage.xml
 .DS_Store
 *.log
 *.sqlite3
+
+#output file
+files
